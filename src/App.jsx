@@ -128,7 +128,7 @@ export default function ChatInterface() {
             onClick={() => setSidebarOpen(!sidebarOpen)}
             className="px-2 py-0 hover:bg-gray-800 rounded-lg transition-colors"
           >
-            <Menu size={12} />
+            <Menu size={18} />
           </button>
           <h1 className="font-semibold">ChatIA</h1>
         </div>
