@@ -123,14 +123,14 @@ export default function ChatInterface() {
       {/* Main Chat Area */}
       <div className="flex-1 flex flex-col">
         {/* Header */}
-        <div className="border-b border-gray-800 p-4 flex items-center gap-3">
+        <div className="border-b border-gray-800 p-2 flex items-center gap-3">
           <button 
             onClick={() => setSidebarOpen(!sidebarOpen)}
-            className="p-2 hover:bg-gray-800 rounded-lg transition-colors"
+            className="px-2 py-0 hover:bg-gray-800 rounded-lg transition-colors"
           >
-            <Menu size={20} />
+            <Menu size={12} />
           </button>
-          <h1 className="text-lg font-semibold">ChatGPT</h1>
+          <h1 className="font-semibold">ChatIA</h1>
         </div>
 
         {/* Messages */}
